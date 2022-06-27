@@ -50,7 +50,7 @@ export const userRegsiterReducer = (state = {}, action) => {
 		case USER_REGISTER_FAIL:
 			return { loading: false, error: action.payload }
 		default:
-			return state
+			return {}
 	}
 }
 
